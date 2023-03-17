@@ -1,0 +1,133 @@
+.navbar {
+    padding: 30px 15px;
+}
+
+#logo {
+    height: 50px;
+}
+
+.input, select {
+    border: 2px solid #F5F5F5;
+    background-color: #F5F5F5;
+    border-radius: 5px;
+    padding: 4px 8px;
+    width: fit-content;
+    display: inline;
+    margin: 0px 10px !important;
+}
+
+i {
+    font-size: 20px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    width: 100% !important;
+    margin: 0px !important;
+}
+
+#events_details_row {
+    display: flex !important;
+    align-items: flex-start !important;
+}
+
+.spotlight {
+    width: 100% !important;
+}
+
+.event_details {
+    width: 100% !important;
+}
+
+.container {
+    padding: 15px !important;
+    margin: 15px 25px;
+    background-color: #E1EBF5;
+    border: 2px solid #E1EBF5;
+    border-radius: 5px !important;
+    text-align: center;
+}
+
+.events_details_container {
+    padding: 15px 25px 30px 25px !important;
+    margin: 15px 25px;
+    background-color: #E1EBF5;
+    border: 2px solid #E1EBF5;
+    border-radius: 5px !important;
+}
+
+.upcoming_events_heading {
+    margin: 0px 12px 24px 12px;
+}
+
+.slider {
+    height: 10px;
+}
+
+.event_image {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.event_name {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #C3272D;
+    margin-bottom: 5px;
+}
+
+.event_details_name {
+    margin-top: 5px !important;
+    margin-bottom: 25px !important;
+}
+
+.event_description {
+    font-size: 0.8rem !important;
+    margin-bottom: 5px;
+}
+
+.event_container {
+    background-color: #F5F5F5;
+    border: 2px solid #F5F5F5;
+    border-radius: 5px !important;
+    padding: 15px 25px 20px 20px;
+}
+
+.event_details {
+    margin-bottom: 0px;
+}
+
+button {
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: white;
+    background-color: #C3272D;
+    border: 2px solid #C3272D;
+    border-radius: 5px !important;
+    padding: 5px 10px;
+}
+
+button:disabled {
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    background-color: rgba(195, 39, 45, 0.5);
+    border: 2px solid rgba(195, 39, 45, 0.0);
+    border-radius: 5px !important;
+    padding: 5px 10px;   
+}
+
+input[type=submit] {
+    font-weight: bold;
+    color: white;
+    background-color: #C3272D;
+    border: 2px solid #C3272D;
+    border-radius: 5px !important;
+    padding: 5px 10px;
+}
+
+.events_search_criteria {
+    color: #C3272D;
+    margin: 12px;
+}
